@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- get a popular google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Data of Australian Cities</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Data of Australian Cities</h1>
+      <p>
+        This is a list of Australian cities with their population and
+        coordinates. The data is from
+        <a href="https://simplemaps.com/data/au-cities" target="_blank"
+          ><span>simplemaps.com</span></a
+        >.
+      </p>
+      <p>Type the name of the city in the input box to filter the results.</p>
+
+      <!-- type a name or state to use the fillter -->
+      <input
+        type="text"
+        id="myInput"
+        placeholder="Type a city name to search..."
+        title="Type in a name"
+      />
+    </div>
+
+    <ul>
+      <!-- data will be displayed here -->
+    </ul>
+
+    <script src="app.js"></script>
+  </body>
+</html>
